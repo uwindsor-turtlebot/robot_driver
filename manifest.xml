@@ -1,0 +1,18 @@
+<package>
+  <description brief="robot_driver">
+
+     robot_driver
+
+  </description>
+  <author>Turtlebot</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/robot_driver</url>
+  
+  <depend package="roscpp"/>
+  <depend package="std_msgs"/>
+
+  <depend package="turtlebot_node"/>
+</package>
+
+
