@@ -53,6 +53,8 @@ rosbuild_add_library(Kinect
 	src/Kinect/VisionDetector.cpp)
 target_link_libraries(Kinect freenect)
 
-rosbuild_add_executable(turtlebot_driver.o src/TurtleBot.cpp)
-target_link_libraries(turtlebot_driver.o ROSRobot Kinect)
+rosbuild_add_executable(Patroller.o src/Patroller.cpp)
+target_link_libraries(Patroller.o ROSRobot Kinect)
 
+rosbuild_add_executable(Template.o src/Template.cpp)
+target_link_libraries(Template.o ROSRobot Kinect)
