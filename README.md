@@ -1,5 +1,6 @@
-robot_driver
+Robot Driver
 ============
+http://cs.uwindsor.ca/turtlebot
 
 Requires ros-electric to run.
 
