@@ -56,21 +56,3 @@ target_link_libraries(Kinect freenect)
 rosbuild_add_executable(turtlebot_driver.o src/TurtleBot.cpp)
 target_link_libraries(turtlebot_driver.o ROSRobot Kinect)
 
-rosbuild_add_executable(test/movementdetector.o src/Test_MovementDetector.cpp)
-target_link_libraries(test/movementdetector.o ROSRobot)
-
-rosbuild_add_executable(test/rotationdetector.o src/Test_RotationDetector.cpp)
-target_link_libraries(test/rotationdetector.o ROSRobot)
-
-rosbuild_add_executable(test/frontbumperdetector.o src/Test_FrontBumperDetector.cpp)
-target_link_libraries(test/frontbumperdetector.o ROSRobot)
-
-rosbuild_add_executable(test/cliffdetector.o src/Test_CliffDetector.cpp)
-target_link_libraries(test/cliffdetector.o ROSRobot)
-
-rosbuild_add_executable(test/timedetector.o src/Test_TimeDetector.cpp)
-target_link_libraries(test/timedetector.o ROSRobot)
-
-rosbuild_add_executable(test/visiondetector.o src/Test_VisionDetector.cpp)
-target_link_libraries(test/visiondetector.o ROSRobot)
-target_link_libraries(test/visiondetector.o Kinect)
